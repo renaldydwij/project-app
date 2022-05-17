@@ -17,9 +17,9 @@ use App\Http\Controllers\PegawaiController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Route::resource('provinsi', ProvinsiController::class);
 Route::resource('kecamatan', KecamatanController::class);
